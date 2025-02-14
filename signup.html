@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f5f5f5; text-align: center; margin: 0; padding: 50px;">
+
+   <h1 style="font-size: 42px; color: #333; margin-bottom: 20px;">SignUp</h1>
+   <hr style="border: 1px solid #ccc; margin-bottom: 40px;">
+
+   <form action="secdet.html" method="POST" 
+        style="background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); width: 50%; max-width: 500px; margin: 0 auto; text-align: left;">
+    
+    <label for="fname" style="font-size: 18px; font-weight: bold; display: block; margin-bottom: 5px;">Name:</label>
+    <input type="text" id="fname" name="fname"
+        style="width: 100%; padding: 12px; border: 2px solid #ccc; border-radius: 8px; font-size: 16px; margin-bottom: 15px;">
+
+    <label for="email" style="font-size: 18px; font-weight: bold; display: block; margin-bottom: 5px;">Email ID:</label>
+    <input type="email" id="email" name="email"
+        style="width: 100%; padding: 12px; border: 2px solid #ccc; border-radius: 8px; font-size: 16px; margin-bottom: 15px;">
+
+    <label for="phone" style="font-size: 18px; font-weight: bold; display: block; margin-bottom: 5px;">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit number"
+        style="width: 100%; padding: 12px; border: 2px solid #ccc; border-radius: 8px; font-size: 16px; margin-bottom: 15px;">
+
+    <label for="pwd" style="font-size: 18px; font-weight: bold; display: block; margin-bottom: 5px;">Password:</label>
+    <input type="password" id="pwd" name="pwd"
+        style="width: 100%; padding: 12px; border: 2px solid #888; border-radius: 8px; font-size: 16px; margin-bottom: 15px;">
+
+    <label for="cpwd" style="font-size: 18px; font-weight: bold; display: block; margin-bottom: 5px;">Confirm Password:</label>
+    <input type="password" id="cpwd" name="cpwd"
+        style="width: 100%; padding: 12px; border: 2px solid #888; border-radius: 8px; font-size: 16px; margin-bottom: 20px;">
+
+    <input type="submit" value="Submit"
+        style="display: block; width: 100%; padding: 15px; font-size: 18px; background-color: #007bff; color: white; border: none; border-radius: 8px; cursor: pointer;">
+
+</form>
+
+</body>
+</html>
